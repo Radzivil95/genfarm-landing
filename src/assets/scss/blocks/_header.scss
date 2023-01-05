@@ -1,0 +1,31 @@
+.header {
+  padding-top: 45px;
+  &__inner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  &__nav {
+    margin-left: 505px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    &-link {
+      font-family: var(--title-font);
+      font-weight: 400;
+      color: #2C3638;
+    }
+  }
+  &__btn {
+    margin-left: 113px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 218px;
+    height: 70px;
+    background: #2F393B;
+    border-radius: 2px;
+    color: (#ffffff);
+    font-family: 'Bayon';
+    font-weight: 400;
+  }
+}
