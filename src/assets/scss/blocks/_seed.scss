@@ -1,0 +1,45 @@
+.seed {
+  padding-bottom: 45px;
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+  }
+  &__subtitle {
+    font-family: 'Bayon';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #DF923A;
+  }
+  &__title {
+    width: 463px;
+    font-family: 'Bayon';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #2C3638;
+  }
+  &__content-inner {
+    margin-top: 67px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+  }
+  &__content-img {
+    width: 85px;
+    height: 95px;
+  }
+  &__btn {
+    margin-top: 110px;
+    width: 218px;
+    height: 70px;
+    background: #DF923A;
+    border-radius: 2px;
+    font-family: 'Bayon';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+}
