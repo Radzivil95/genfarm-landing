@@ -1,0 +1,103 @@
+.footer {
+  padding-top: 44px;
+  background-color:#2C3638;
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+  &__subtitle {
+    font-family: 'Bayon';
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 217px;
+    color: #DF923A;
+  }
+  &__title {
+    font-family: 'Bayon';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 81px;
+    color: #FFFFFF;
+  }
+  &__text {
+    margin-top: 44px;
+    margin-bottom: 45px;
+    max-width: 463px;
+    color: #F6F5F3;
+  }
+  &__form {
+    margin-bottom: 43px;
+  }
+  &__form-input {
+    padding: 5px 2px;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid rgba(246, 245, 243, 0.3);
+    &::placeholder {
+      font-family: 'Bayon';
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 33px;
+      color: #FFFFFF;
+    }
+  }
+  &__form-btn {
+    margin-left: 25px;
+    width: 218px;
+    height: 70px;
+    background: #DF923A;
+    border-radius: 2px;
+    font-family: 'Bayon';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  &__contacts {
+    margin-left: 210px;
+    display: flex;
+    gap: 90px;
+  }
+  &__contacts-title {
+    font-family: 'Bayon';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    color: #DF923A;
+    margin-bottom: 30px;
+  }
+  &__contacts-phone {
+    font-family: 'Bayon';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #F6F5F3;
+  }
+  &__contacts-address {
+    max-width: 207px;
+    font-family: 'Bayon';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #F6F5F3;
+  }
+  &__nav {
+    padding: 25px 144px 22px 90px;
+    border-top: 1px solid rgba(246, 245, 243, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__nav-list {
+    display: flex;
+    gap: 75px;
+  }
+  &__nav-link {
+    font-family: 'Bayon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #F6F5F3;
+  }
+}
