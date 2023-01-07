@@ -1,0 +1,42 @@
+.deal {
+  padding-top: 90px;
+  padding-bottom: 140px;
+  &__title {
+    width: 633px;
+    font-family: 'Bayon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 130px;
+    color: #2C3638;
+    &_accent {
+      color: #DF923A;
+    }
+  }
+  &__images {
+    margin-top: -220px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 170px;
+    gap: 36px;
+  }
+  &__img_first {
+    width: 272px;
+    height: 374px;
+  }
+  &__img_last {
+    width: 561px;
+    height: 931px;
+  }
+  &__images-inner {
+    text-align: center;
+  }
+  &__wrapper {
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}

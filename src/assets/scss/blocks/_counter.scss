@@ -1,0 +1,31 @@
+.counter {
+  display: flex;
+  justify-content: space-between;
+  &__item-title {
+    width: 105px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+  &__item-content {
+    font-family: 'Bayon';
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 130px;
+    color: #2C3638;
+    &_accent {
+      color: #DF923A;
+    }
+  }
+  &__title {
+    font-family: 'Bayon';
+    width: 306px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #2C3638;
+  }
+}
