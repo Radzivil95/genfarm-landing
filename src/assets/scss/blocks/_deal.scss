@@ -17,7 +17,7 @@
     margin-top: -220px;
     padding-bottom: 90px;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     margin-left: 170px;
     gap: 36px;
@@ -38,5 +38,121 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+  }
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  &__item-title {
+    width: 105px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+  &__item-content {
+    font-family: 'Bayon';
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 130px;
+    color: #2C3638;
+    &_accent {
+      color: #DF923A;
+    }
+  }
+  &__title {
+    font-family: 'Bayon';
+    width: 306px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #2C3638;
+  }
+}
+
+@media (max-width: 1400px) {
+  .deal__title {
+    font-size: 100px;
+  }
+  .deal__img_last {
+    width: 459px;
+    height: 731px;
+  }
+  .deal__images-inner {
+    display: none;
+  }
+  .deal__images {
+    margin-top: -150px;
+  }
+  .deal__img_second-block {
+    width: 450px;
+  }
+}
+@media (max-width: 992px) {
+  .deal__img_second-block {
+    width: 300px;
+  }
+  .deal__title {
+    font-size: 80px;
+    width: 100%;
+    line-height: 100px;
+  }
+  .deal__images {
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+  .deal__img {
+    width: 300px;
+    height: 300px;
+  }
+  .counter__item-content {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .counter__title {
+    font-size: 40px;
+  }
+  .deal__wrapper {
+    padding-top: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .counter {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .deal__images {
+    flex-direction: column;
+  }
+  .deal__images {
+    width: 400px;
+  }
+  .deal__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .deal__img_second-block {
+    width: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .deal__title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .counter__item-content {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .counter__item-title {
+    margin-bottom: 9px;
+  }
+  .deal__images {
+    width: 260px;
   }
 }
