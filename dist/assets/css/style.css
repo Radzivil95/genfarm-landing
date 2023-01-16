@@ -1192,6 +1192,11 @@ a {
 
 .advantages__item {
     width: 100px;
+    transition: all 0.5s;
+}
+
+.advantages__item:hover {
+    scale: 1.1;
 }
 
 .advantages__text {
