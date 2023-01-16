@@ -453,6 +453,11 @@ a {
     font-weight: 400;
     color: #2C3638;
     font-size: 20px;
+    transition: all 0.5s;
+}
+
+.header__nav-link:hover {
+    color: #df923a;
 }
 
 .header__btn {
@@ -466,6 +471,32 @@ a {
     color: #ffffff;
     font-family: "Bayon";
     font-weight: 400;
+    transition: all 0.5s;
+}
+
+.header__btn:hover {
+    background-color: #df923a;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #2C3638;
+    transition: all 0.5s;
+}
+
+.logo:hover {
+    color: #df923a;
+}
+
+.logo:hover .logo-img {
+    transition: all 0.5s;
+    rotate: 50deg;
 }
 
 .burger {
@@ -576,6 +607,12 @@ a {
     font-size: 20px;
     line-height: 36px;
     color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.footer__form-btn:hover {
+    background-color: #F6F5F3;
+    color: #2C3638;
 }
 
 .footer__contacts {
@@ -599,6 +636,11 @@ a {
     font-size: 18px;
     line-height: 33px;
     color: #F6F5F3;
+    transition: all 0.5s;
+}
+
+.footer__contacts-phone:hover {
+    color: #df923a;
 }
 
 .footer__contacts-address {
@@ -630,6 +672,15 @@ a {
     font-size: 20px;
     line-height: 36px;
     color: #F6F5F3;
+    transition: all 0.5s;
+}
+
+.footer__nav-link:hover {
+    color: #df923a;
+}
+
+.footer__logo {
+    color: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -788,6 +839,11 @@ a {
     font-size: 20px;
     line-height: 36px;
     color: #2C3638;
+    transition: all 0.5s;
+}
+
+.promo__social-link:hover {
+    color: #df923a;
 }
 
 @media (max-width: 1400px) {
@@ -1256,6 +1312,11 @@ a {
     font-size: 20px;
     line-height: 36px;
     color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.seed__btn:hover {
+    background-color: #2C3638;
 }
 
 @media (max-width: 1400px) {
@@ -1395,6 +1456,12 @@ a {
     font-size: 20px;
     line-height: 36px;
     color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.footer__form-btn:hover {
+    background-color: #F6F5F3;
+    color: #2C3638;
 }
 
 .footer__contacts {
@@ -1418,6 +1485,11 @@ a {
     font-size: 18px;
     line-height: 33px;
     color: #F6F5F3;
+    transition: all 0.5s;
+}
+
+.footer__contacts-phone:hover {
+    color: #df923a;
 }
 
 .footer__contacts-address {
@@ -1449,6 +1521,15 @@ a {
     font-size: 20px;
     line-height: 36px;
     color: #F6F5F3;
+    transition: all 0.5s;
+}
+
+.footer__nav-link:hover {
+    color: #df923a;
+}
+
+.footer__logo {
+    color: #ffffff;
 }
 
 @media (max-width: 1200px) {
