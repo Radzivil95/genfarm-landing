@@ -5,7 +5,7 @@
     justify-content: flex-start;
     align-items: center;
   }
-  &__nav {
+  &__list {
     margin-left: 505px;
     display: flex;
     align-items: center;
@@ -62,14 +62,97 @@
   flex-direction: column;
   align-items: center;
   gap: 4px;
+  cursor: pointer;
   &__item {
     height: 3px;
     width: 45px;
     background-color: #2C3638;
   }
+  &__wrapper {
+    transform: translateX(-600vh);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: #2C3638;
+    z-index: 20;
+    transition: all 0.4s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__wrapper_active {
+    transform: translateX(0vh);
+  }
+  &__btn {
+    width: 218px;
+    height: 70px;
+    background-color: #df923a;
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.5s ease-out;
+    &:hover {
+      background-color: #fff;
+      color: #2C3638;
+    }
+  }
+  &__list {
+    padding: 70px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  &__list-link {
+    color: #fff;
+    transition: all 0.5s;
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 20px;
+    &:hover {
+      color: #df923a;
+    }
+  }
+  &__close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      top: 21px;
+      left: 10px;
+      width: 26px;
+      height: 4px;
+      background: #fff;
+    }
+    &:before {
+      webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    &:after {
+      webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
+  &__close-item {
+    height: 3px;
+    width: 45px;
+    background-color: #fff;
+  }
 }
+
 @media (max-width: 1400px) {
-  .header__nav {
+  .header__list {
     margin-left: 0px;
   }
   .header__inner {
@@ -78,7 +161,7 @@
 }
 
 @media (max-width: 992px) {
-  .header__nav {
+  .header__list {
     display: none;
   }
   .header__btn {

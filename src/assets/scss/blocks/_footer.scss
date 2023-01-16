@@ -33,6 +33,7 @@
     border: none;
     background-color: inherit;
     border-bottom: 1px solid rgba(246, 245, 243, 0.3);
+    color: #fff;
     &::placeholder {
       font-family: 'Bayon';
       font-weight: 400;
@@ -187,5 +188,15 @@
   .footer__contacts-address, 
   .footer__contacts-phone {
     font-size: 12px;
+  }
+  .burger__wrapper {
+    width: 220px;
+  }
+  .burger__list {
+    padding: 40px 20px;
+  }
+  .burger__btn {
+    width: 150px;
+    height: 55px;
   }
 }

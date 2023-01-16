@@ -30,18 +30,32 @@
     <div class="container">
       <div class="header__inner">
         <a class="logo" href="./"><img class="logo-img" src="./assets/images/logo.svg" alt="Logo">GENFARM.</a>
-        <ul class="header__nav list-reset">
-          <li class="header__nav-item"><a class="header__nav-link" href="#home">Home</a></li>
-          <li class="header__nav-item"><a class="header__nav-link" href="#product">Product</a></li>
-          <li class="header__nav-item"><a class="header__nav-link" href="#seed">Shop</a></li>
-          <li class="header__nav-item"><a class="header__nav-link" href="#footer">Contact</a></li>
-        </ul>
+        <nav class="header__nav">
+          <ul class="header__list list-reset">
+            <li class="header__list-item"><a class="header__list-link" href="#home">Home</a></li>
+            <li class="header__list-item"><a class="header__list-link" href="#product">Product</a></li>
+            <li class="header__list-item"><a class="header__list-link" href="#seed">Shop</a></li>
+            <li class="header__list-item"><a class="header__list-link" href="#footer">Contact</a></li>
+          </ul>
+        </nav>
         <button class="header__btn btn-reset">Get started</button>
         <div class="burger">
           <span class="burger__item"></span>
           <span class="burger__item"></span>
           <span class="burger__item"></span>
           <span class="burger__item"></span>
+        </div>
+        <div class="burger__wrapper">
+          <nav class="burger__nav">
+            <div class="burger__close"></div>
+            <ul class="burger__list list-reset">
+              <li class="burger__list-item"><a class="burger__list-link" href="#home">Home</a></li>
+              <li class="burger__list-item"><a class="burger__list-link" href="#product">Product</a></li>
+              <li class="burger__list-item"><a class="burger__list-link" href="#seed">Shop</a></li>
+              <li class="burger__list-item"><a class="burger__list-link" href="#footer">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="burger__btn btn-reset">Get started</button>
         </div>
       </div>
     </div>
@@ -225,6 +239,7 @@
       </nav>
     </div>
   </footer>
+  <div class="overlay"></div>
   <script src="./assets/js/main.min.js"></script>
 </body>
 </html>
