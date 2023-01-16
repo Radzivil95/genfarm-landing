@@ -12,3 +12,8 @@ burgerClose.addEventListener('click', function() {
   burgerMenu.classList.remove("burger__wrapper_active");
   overlay.classList.remove("overlay_active");
 });
+
+overlay.addEventListener('click', function() {
+  burgerMenu.classList.remove("burger__wrapper_active");
+  overlay.classList.remove("overlay_active");
+});

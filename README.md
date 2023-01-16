@@ -11,6 +11,7 @@ Deploy :  [here](https://radzivil95.github.io/genfarm-landing/dist/)
 - [x] Animate promo section and logo
 - [x] Favicon
 - [x] Og tags for social
-- [ ] Burger menu
+- [x] Burger menu
 - [ ] Modal windows for buttons
+- [ ] Pagespeed
 - [x] Deploy gh-page
