@@ -60,6 +60,10 @@
       font-size: 20px;
       line-height: 36px;
       color: #2C3638;
+      transition: all 0.5s;
+      &:hover {
+        color: #df923a;
+      }
     }
   }
 }
