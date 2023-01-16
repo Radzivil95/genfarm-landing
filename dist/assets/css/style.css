@@ -286,7 +286,7 @@ textarea {
 [type=search] {
     -webkit-appearance: textfield;
  /* 1 */
-    outline-offset: -2px;
+    utline-offset: -2px;
  /* 2 */
 }
 
@@ -645,8 +645,13 @@ a {
 }
 
 @media (max-width: 992px) {
-    .footer__nav {
+    .footer__logo {
         display: none;
+    }
+
+    .footer__nav {
+        justify-content: center;
+        padding: 0;
     }
 }
 
@@ -685,6 +690,10 @@ a {
 
     .footer__contacts {
         gap: 20px;
+    }
+
+    .footer__nav-list {
+        gap: 30px;
     }
 }
 
@@ -1455,8 +1464,13 @@ a {
 }
 
 @media (max-width: 992px) {
-    .footer__nav {
+    .footer__logo {
         display: none;
+    }
+
+    .footer__nav {
+        justify-content: center;
+        padding: 0;
     }
 }
 
@@ -1495,6 +1509,10 @@ a {
 
     .footer__contacts {
         gap: 20px;
+    }
+
+    .footer__nav-list {
+        gap: 30px;
     }
 }
 
