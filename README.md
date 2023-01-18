@@ -12,6 +12,5 @@ Deploy :  [here](https://radzivil95.github.io/genfarm-landing/dist/)
 - [x] Favicon
 - [x] Og tags for social
 - [x] Burger menu
-- [ ] Modal windows for buttons
-- [ ] Pagespeed
+- [X] Modal windows for header-btn
 - [x] Deploy gh-page
