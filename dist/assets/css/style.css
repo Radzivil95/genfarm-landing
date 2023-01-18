@@ -662,7 +662,7 @@ a {
     color: #ffffff;
     font-family: "Bayon";
     font-weight: 400;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 
 .header__btn:hover {
@@ -1932,4 +1932,99 @@ a {
         width: 150px;
         height: 55px;
     }
+}
+
+.modal-form {
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 350px;
+    background-color: #2C3638;
+    border-radius: 20px;
+    z-index: 20;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    transition: all 0.2s;
+}
+
+.modal-form__close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.modal-form__close:before, .modal-form__close:after {
+    content: "";
+    position: absolute;
+    top: 21px;
+    left: 10px;
+    width: 26px;
+    height: 4px;
+    background: #fff;
+}
+
+.modal-form__close:before {
+    webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.modal-form__close:after {
+    webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.modal-form__input {
+    padding: 5px 10px;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid rgba(246, 245, 243, 0.3);
+    color: #fff;
+}
+
+.modal-form__input::-moz-placeholder {
+    font-family: "Bayon";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.modal-form__input::placeholder {
+    font-family: "Bayon";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.modal-form__btn {
+    width: 218px;
+    height: 70px;
+    background: #DF923A;
+    border-radius: 2px;
+    font-family: "Bayon";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.modal-form__btn:hover {
+    background-color: #F6F5F3;
+    color: #2C3638;
+}
+
+.modal-active {
+    visibility: visible;
 }
